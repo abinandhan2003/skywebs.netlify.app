@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tools Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
+    <script src='main.js'></script>
+
+    <!-- Tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body class="bg-sky-200">
+
+    <!-- header  -->
+
+    <div class="flex justify-between items-center pr-5 shadow-md bg-white" id="Home">
+        <div class="w-36 h-16 flex justify-center">
+            <img src="/Asserts/img/skyweb.svg" alt="skyweb" class="w-full p-2">
+        </div>
+        <div class="md:hidden mr-10 " onclick="menuClick()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+        <ul class="hidden md:flex flex-wrap gap-5">
+            <a href="../../index.html#Home">
+                <li class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">Home
+                </li>
+            </a>
+            <a href="../../index.html#Projects">
+                <li class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                    Projects</li>
+            </a>
+            <a href="../../index.html#About">
+                <li class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                    About</li>
+            </a>
+            <a href="../../index.html#Contact">
+                <li class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                    Contact</li>
+            </a>
+        </ul>
+        <a href="../../index.html#Contact" class="hidden md:block">
+            <div class="bg-blue-200 px-5 py-2 rounded active:bg-blue-100 hover:border border-blue-700">
+                Subscribe
+            </div>
+        </a>
+    </div>
+    <!-- Mobile menu  -->
+    <div class="transition ease-in-out duration-700 hidden bg-white" id="mobilemenu">
+        <ul class="gap-5 flex flex-col items-center">
+            <a href="../../index.html#Home">
+                <li class="hover:bg-blue-200 p-2 rounded">Home</li>
+            </a>
+            <a href="../../index.html#Projects">
+                <li class="hover:bg-blue-200 p-2 rounded">Projects</li>
+            </a>
+            <a href="../../index.html#About">
+                <li class="hover:bg-blue-200 p-2 rounded">About</li>
+            </a>
+            <a href="../../index.html#Contact">
+                <li class="hover:bg-blue-200 p-2 rounded">Contact</li>
+            </a>
+        </ul>
+        <a href="../../index.html#Contact" class="flex flex-col items-center">
+            <div class="bg-blue-200 px-5 py-2 rounded active:bg-blue-100">
+                Subscribe
+            </div>
+        </a>
+        <br>
+    </div>
+
+    <!-- Undraw illustrator  -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg ">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">unDraw illustrator</h1> <br>
+                    <p>Browse to find the images that fit your needs and click to download. Use the on-the-fly color
+                        image generation to match your brand identity.
+                    </p>
+                    <br><br>
+                    <a href="https://undraw.co/">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+
+
+                <div class="w-full md:w-1/2" data-aos="fade-up">
+                    <img src="../img/undraw.jpg" alt="tailwind"
+                        class="w-full hover:scale-105 duration-500 border border-black">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Font Awesome icons -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg rounded-md">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2" data-aos="fade-up">
+                    <img src="../img/fontawesome.png" alt="tailwind"
+                        class="w-full hover:scale-105 duration-500 border border-black">
+                </div>
+
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">Font Awesome icons</h1> <br>
+                    <p>Font Awesome is the Internet's icon library and toolkit, used by millions of designers,
+                        developers, and content creators. </p>
+                    <br> <br>
+                    <a href="https://fontawesome.com/">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Tailwind -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg rounded-md">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">Tailwind CSS</h1> <br>
+                    <p>Rapidly build modern websites without ever leaving your HTML.
+                        A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90
+                        that
+                        can be composed to build any design, directly in your markup. </p>
+                    <br>
+                    <a href="https://tailwindcss.com/">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2" data-aos="fade-up">
+                    <img src="../img/tailwindpage.jpg" alt="tailwind"
+                        class="w-full hover:scale-105 duration-500 border border-black">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SVG generator  -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg rounded-md">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2" data-aos="fade-up">
+                    <img src="../img/bgselector.png" alt="tailwind" class="w-full hover:scale-105 duration-500">
+                </div>
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">SVG background generator</h1> <br>
+                    <p>A web app to generate unique SVG backgrounds and patterns for social media banners and posts, web
+                        pages, visual assets, product showcases, and more.
+                    </p>
+                    <br>
+                    <a href="https://app.haikei.app/">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- TAnimate On Scroll Library -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg rounded-md">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2" data-aos="fade-up">
+                    <img src="../img/aospage.png" alt="tailwind"
+                        class="w-full hover:scale-105 duration-500 border border-black">
+                </div>
+
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">Animate On Scroll Library</h1> <br>
+                    <p>With animate on scroll library you can creat a beatutiful web with smart animination effects
+                        without using JS code. </p>
+                    <br>
+                    <a href="https://michalsnik.github.io/aos/">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Beautiful CSS box-shadow examples -->
+    <section class="p-5 md:py-5">
+
+        <div class="container mx-auto bg-white shadow-lg rounded-md">
+            <div class="flex p-10 flex-wrap gap-10 md:gap-0">
+
+
+                <div class="w-full md:w-1/2 md:px-10 font-sans">
+                    <h1 class="text-5xl" id="cursivefont">Beautiful CSS box-shadow examples</h1> <br>
+                    <p>All of these box-shadow were copied using. With CSS Scan you can easily inspect or copy any
+                        website's CSS.
+                    </p>
+                    <br>
+                    <a href="https://getcssscan.com/css-box-shadow-examples">
+                        <div
+                            class="border border-black text-black py-3 w-28 flex justify-center hover:bg-black hover:text-white transition duration-300 hover:border-gray-50 hover:scale-110">
+                            Visit</div>
+                    </a>
+                </div>
+
+
+                <div class="w-full md:w-1/2" data-aos="fade-up" >
+                    <img src="../img/shadowpicker.png" alt="tailwind"
+                        class="w-full hover:scale-105 duration-500 border border-black">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Quotes section  -->
+
+    <section class="font-bold text-center text-blue-500 p-4" id="cursivefont">
+        PROUDELY OPEN SOURCE 
+    </section>
+    <section class="flex flex-wrap">
+        <img src="../img/Quotespage.svg" alt="Quotes" class="w-full md:w-1/2 p-10">
+        <div class="w-full md:w-1/2 p-5"> <br><br>
+            <h1 class="text-5xl">Everyone gets more awesome.</h1> <br>
+            <p class="text-2xl">We know the pain of the frontend developer to creat
+                the awesome web in their mind , we provide the resource
+                and make developer to reduce their work.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Footer  -->
+    <section class="container mx-auto md:px-10 rounded-xl mt-5 flex flex-wrap bg-gray-900">
+        <div class="flex flex-wrap">
+            <div class=" w-full md:w-1/3 py-5 px-5">
+                <h1 class="text-2xl text-gray-100">
+                    About us</h1>
+                <p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatem
+                    quia
+                    suscipit dicta nihil aliquam veniam nesciunt asperiores? Nesciunt praesentium, quis in doloribus
+                    optio neque voluptate culpa pariatur odit ut?</p>
+            </div>
+            <div class=" w-full md:w-1/3 py-5 flex flex-col justify-center items-center">
+                <div class="text-3xl text-gray-100"> Abi</div>
+                <div class="flex text-gray-400 gap-5 mt-2">
+                    <a href="tel:+919092312162"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:abinandhan77@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </a>
+                    <a href="http:" class="bg-slate-400 rounded-xl w-7 h-7">
+                        <img src="/Asserts/img/icons8-instagram-50.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class=" w-full md:w-1/3 py-5 px-5">
+                <h1 class="text-2xl text-gray-100">
+                    Contact us</h1>
+                <div class="text-gray-400"> Address : Theerthamalai Vill & Post, Harur TK, Dharmapuri DT,636906
+                </div>
+                <div class="text-gray-400"> email: abinandhan77@gmail.com</div>
+                <div class="text-gray-400"> Phone : 9092312162</div>
+            </div>
+        </div>
+        <div class="border-t-2 border-gray-400 w-full text-gray-200 flex items-center justify-center p-4">
+            © All copyrights reserved by skyweb
+        </div>
+    </section>
+
+
+
+
+
+
+ 
+
+
+    <script src='../js/main.js'></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

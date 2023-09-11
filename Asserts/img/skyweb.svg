@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1618" height="985" viewBox="0 0 1618 985">
+  <defs>
+    <clipPath id="clip-skyweb">
+      <rect width="1618" height="985"/>
+    </clipPath>
+  </defs>
+  <g id="skyweb" clip-path="url(#clip-skyweb)">
+    <text id="S" transform="translate(20 729)" fill="#0789fb" font-size="900" font-family="MaiandraGD-Regular, Maiandra GD" letter-spacing="0.01em"><tspan x="0" y="0">S</tspan></text>
+    <text id="ky" transform="translate(394 -125)" fill="#707070" font-size="900" font-family="MaiandraGD-Regular, Maiandra GD"><tspan x="0" y="867">ky</tspan></text>
+    <text id="we_b" data-name="we
+b" transform="translate(1380)" fill="#4b4d4e" font-size="250" font-family="MaiandraGD-Regular, Maiandra GD"><tspan x="0" y="241">w</tspan><tspan x="0" y="491">e</tspan><tspan x="0" y="741">b</tspan></text>
+  </g>
+</svg>

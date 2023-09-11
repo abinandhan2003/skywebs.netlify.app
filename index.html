@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>skyweb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+
+<body>
+    <section class="px-2 py-2 md:py-5">
+
+
+        <!-- hero section  -->
+        <div class="container mx-auto md:px-10 bg-pink-100 rounded-2xl">
+            <!-- Header  -->
+
+            <div class="flex justify-between items-center" id="Home">
+                <div class="w-36 h-16 flex justify-center">
+                    <img src="/Asserts/img/skyweb.svg" alt="skyweb" class="w-full p-2">
+                </div>
+                <div class="md:hidden mr-10 " onclick="menuClick()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+                <ul class="hidden md:flex flex-wrap gap-5">
+                    <a href="#Home">
+                        <li
+                            class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                            Home</li>
+                    </a>
+                    <a href="#Projects">
+                        <li
+                            class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                            Projects</li>
+                    </a>
+                    <a href="#About">
+                        <li
+                            class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                            About</li>
+                    </a>
+                    <a href="#Footer">
+                        <li
+                            class="transition duration-300 ease-in-out hover:bg-blue-200 p-2 rounded border border-pink-50">
+                            Contact</li>
+                    </a>
+                </ul>
+                <a href="#Contact" class="hidden md:block">
+                    <div class="bg-blue-200 px-5 py-2 rounded active:bg-blue-100 hover:border border-blue-700">
+                        Subscribe
+                    </div>
+                </a>
+            </div>
+            <!-- Mobile menu  -->
+            <div class="transition ease-in-out duration-700 hidden" id="mobilemenu">
+                <ul class="gap-5 flex flex-col items-center">
+                    <a href="#Home">
+                        <li class="hover:bg-blue-200 p-2 rounded">Home</li>
+                    </a>
+                    <a href="#Projects">
+                        <li class="hover:bg-blue-200 p-2 rounded">Projects</li>
+                    </a>
+                    <a href="#About">
+                        <li class="hover:bg-blue-200 p-2 rounded">About</li>
+                    </a>
+                    <a href="#Footer">
+                        <li class="hover:bg-blue-200 p-2 rounded">Contact</li>
+                    </a>
+                </ul>
+                <a href="#Contact" class="flex flex-col items-center">
+                    <div class="bg-blue-200 px-5 py-2 rounded active:bg-blue-100">
+                        Subscribe
+                    </div>
+                </a>
+            </div>
+            <!-- hero content  -->
+            <div class="flex flex-wrap sm:justify-center">
+
+                <div class="w-full md:w-1/2 py-24 px-10">
+                    <h1 class="text-3xl md:text-5xl w-full font-semibold text-gray-700 text-center md:text-left">
+                        Conver your ideas into digital website</h1>
+
+                    <p class="mt-5 text-center md:text-left">Rapidly build your website</p>
+
+                    <div class="flex gap-5 mt-14 text-center md:text-left">
+                        <a href="Asserts/index/index2.html">
+                            <div
+                                class="bg-blue-300 px-5 py-2 rounded font-mono hover:border border-blue-700 active:bg-blue-100">
+                                Get Started</div>
+                        </a>
+
+                        <a href="#Contact">
+                            <div
+                                class="bg-pink-300 px-5 py-2 rounded font-mono hover:border border-pink-700 active:bg-pink-100">
+                                Subscribe </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 px-20 md:py-16">
+                    <img src="/Asserts/img/hero-bg.svg" alt="hero-bg">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Products -->
+        <section class="container mx-auto md:px-10 bg-yellow-100 rounded-2xl mt-5 md:mt-10 ">
+            <h1 class="text-center text-5xl text-gray-700 p-10">
+                Our Products
+            </h1>
+
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 p-5">
+                    <div class="bg-white rounded p-4  shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-10 h-10 text-red-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                        </svg>
+                        <h1 class="text-2xl font-semibold">Design</h1>
+                        <p>the user experience (UX) and user interface (UI) design, which focuses on how users interact
+                            with the website and the interface elements such as buttons, menus, and forms. UX/UI design
+                            ensures that the website is easy to navigate, accessible, and intuitive, enhancing the
+                            user's overall experience.</p>
+                    </div>
+
+                </div>
+                <div class="w-full md:w-1/3 p-5">
+                    <div class="bg-white rounded p-4 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-10 h-10 text-blue-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                        </svg>
+
+                        <h1 class="text-2xl font-semibold">Developement</h1>
+                        <p>Once the planning stage is complete, the next step is to create a design concept, which
+                            includes the layout, color scheme, typography, and visual elements of the website or
+                            application. The website's functionality can also be extended through the use of programming
+                            frameworks such as React or Vue.</p>
+                    </div>
+
+                </div>
+                <div class="w-full md:w-1/3 p-5">
+                    <div class="bg-white rounded p-4 h-64 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-10 h-10 text-fuchsia-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                        </svg>
+                        <h1 class="text-2xl font-semibold">Marketing</h1>
+                        <p>The practice of promoting products or services using the internet. It encompasses various
+                            strategies and tactics, including search engine optimization (SEO), social media marketing,
+                            email marketing, content marketing, and paid advertising, among others.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Section  -->
+        <section class=" md:px-40 md:py-10" data-aos="zoom-in">
+            <div>
+                <div class="bg-red-100 w-full rounded-2xl mt-5">
+                    <h1 class="text-3xl p-5 text-center"> Build your website with modern frameworks </h1>
+                    <div class="flex p-5 justify-evenly flex-wrap flex-col md:flex-row items-center ">
+                        <div class="w-32 h-14">
+                            <img src="/Asserts/img/tailwind.png" alt="" class="rounded ">
+                        </div>
+                        <div class="w-32 h-14 mt-10 md:mt-0">
+                            <img src="/Asserts/img/boostraplogo.png" alt="" class="rounded ">
+                        </div>
+                        <div class=" w-32 h-14 mt-10 md:mt-0">
+                            <img src="/Asserts/img/reactlogo.png" alt="" class="rounded ">
+                        </div>
+                        <div class="w-32 h-12 mt-10 md:mt-0">
+                            <img src="/Asserts/img/vuelogo.png" alt="" class="rounded ">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects  -->
+        <section class="container mx-auto md:px-10 bg-indigo-100 rounded-2xl mt-5" id="Projects">
+            <h1 class="text-center text-5xl text-gray-700 p-10">
+                Our Projects
+            </h1>
+
+            <div class="flex flex-wrap">
+
+                <div class="w-full md:w-1/3 p-5" data-aos="zoom-in-down">
+                    <div class="bg-white rounded p-4 shadow-lg">
+                        <h1 class="text-2xl font-semibold">Portfolio</h1>
+                        <img src="/Asserts/img/work3.jpg" alt="profilesite" class="h-50">
+                        <a href="https://abi-web.netlify.app/">
+                            <div
+                                class="bg-blue-300 px-5 py-2 rounded font-mono hover:border border-blue-700 active:bg-blue-100 w-1/2 mt-5 text-center">
+                                Visit</div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="w-full md:w-1/3 p-5" data-aos="zoom-in-down">
+                    <div class="bg-white rounded p-4  shadow-lg">
+                        <h1 class="text-2xl font-semibold">skyweb</h1>
+                        <img src="/Asserts/img/work1.jpg" alt="skyweb" class="h-44">
+                        <a href="https://sky-web.netlify.app/">
+                            <div
+                                class="bg-blue-300 px-5 py-2 rounded font-mono hover:border border-blue-700 active:bg-blue-100 w-1/2 mt-5 text-center">
+                                Visit</div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/3 p-5" data-aos="zoom-in-down">
+                    <div class="bg-white rounded p-4 shadow-lg">
+                        <h1 class="text-2xl font-semibold">Stickypass</h1>
+                        <img src="/Asserts/img/work2.jpg" alt="stickypass">
+                        <a href="https://stickypass.netlify.app/">
+                            <div
+                                class="bg-blue-300 px-5 py-2 rounded font-mono hover:border border-blue-700 active:bg-blue-100 w-1/2 mt-5 text-center">
+                                Visit</div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about section  -->
+
+        <div class="container mx-auto md:px-10 bg-sky-100 rounded-2xl mt-5 md:mt-10" id="About" data-aos="zoom-out"
+            data-aos-duration="5000">
+            <div class="px-10 text-center">
+                <h1 class="text-5xl md:text-6xl font-thin text-gray-800"> About</h1>
+            </div>
+            <div>
+                <div class="container bg-sky-100 flex flex-col items-center py-10 ">
+                    <img src="/Asserts/img/abi-image.png" alt="abi-image" class="rounded-full w-52">
+                    <h1 class="text-4xl mt-5 font-semibold text-gray-700">
+                        Abi Nandhan</h1>
+                    <p class="mt-5 px-5 md:px-36 text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio quidem aspernatur
+                        quis nesciunt mollitia nihil dolorum! Tempore iusto nulla, saepe est, accusamus earum cupiditate
+                        sequi omnis consectetur quod similique.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Section  -->
+        <section class="container mx-auto md:px-10 rounded-2xl mt-5 flex flex-wrap" id="Contact">
+            <div class="w-full md:w-1/2 md:py-40 py-5 px-14">
+                <img src="/Asserts/img/contact.svg" alt="">
+            </div>
+            <div class="w-100 md:w-1/2 md:py-16">
+                <h1 class="text-3xl md:text-5xl text-gray-600">Contact Us</h1>
+                <div style="text-align: left" class="md:mt-10 sender-form-field"
+                    data-sender-form-id="lfcy6tlhaoonla3itab"></div>
+            </div>
+        </section>
+
+
+        <!-- Footer  -->
+        <section class="container mx-auto md:px-10 rounded-xl mt-5 flex flex-wrap bg-gray-900" id="Footer">
+            <div class="flex flex-wrap">
+                <div class=" w-full md:w-1/3 py-5 px-5">
+                    <h1 class="text-2xl text-gray-100">
+                        About us</h1>
+                    <p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatem
+                        quia
+                        suscipit dicta nihil aliquam veniam nesciunt asperiores? Nesciunt praesentium, quis in doloribus
+                        optio neque voluptate culpa pariatur odit ut?</p>
+                </div>
+                <div class=" w-full md:w-1/3 py-5 flex flex-col justify-center items-center">
+                    <div class="text-3xl text-gray-100"> Abi</div>
+                    <div class="flex text-gray-400 gap-5 mt-2">
+                        <a href="tel:+919092312162"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:abinandhan77@gmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                        </a>
+                        <a href="http:" class="bg-slate-400 rounded-xl w-7 h-7">
+                            <img src="/Asserts/img/icons8-instagram-50.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class=" w-full md:w-1/3 py-5 px-5">
+                    <h1 class="text-2xl text-gray-100">
+                        Contact us</h1>
+                    <div class="text-gray-400"> Address : Theerthamalai Vill & Post, Harur TK, Dharmapuri DT,636906
+                    </div>
+                    <div class="text-gray-400"> email: abinandhan77@gmail.com</div>
+                    <div class="text-gray-400"> Phone : 9092312162</div>
+                </div>
+            </div>
+            <div class="border-t-2 border-gray-400 w-full text-gray-200 flex items-center justify-center p-4">
+                © All copyrights reserved by skyweb
+            </div>
+        </section>
+
+
+
+
+    </section>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src='/Asserts/js/main.js'></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
